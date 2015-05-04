@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E3FD1461AE4BA63004941C5"
+               BuildableName = "ZLGuess WatchKit App.app"
+               BlueprintName = "ZLGuess WatchKit App"
+               ReferencedContainer = "container:ZLGuess.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E3FD1131AE4BA44004941C5"
+               BuildableName = "ZLGuess.app"
+               BlueprintName = "ZLGuess"
+               ReferencedContainer = "container:ZLGuess.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E3FD13C1AE4BA63004941C5"
+               BuildableName = "ZLGuess WatchKit Extension.appex"
+               BlueprintName = "ZLGuess WatchKit Extension"
+               ReferencedContainer = "container:ZLGuess.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E3FD1461AE4BA63004941C5"
+            BuildableName = "ZLGuess WatchKit App.app"
+            BlueprintName = "ZLGuess WatchKit App"
+            ReferencedContainer = "container:ZLGuess.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/ZLGuess">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E3FD1461AE4BA63004941C5"
+            BuildableName = "ZLGuess WatchKit App.app"
+            BlueprintName = "ZLGuess WatchKit App"
+            ReferencedContainer = "container:ZLGuess.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E3FD1461AE4BA63004941C5"
+            BuildableName = "ZLGuess WatchKit App.app"
+            BlueprintName = "ZLGuess WatchKit App"
+            ReferencedContainer = "container:ZLGuess.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/ZLGuess">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E3FD1461AE4BA63004941C5"
+            BuildableName = "ZLGuess WatchKit App.app"
+            BlueprintName = "ZLGuess WatchKit App"
+            ReferencedContainer = "container:ZLGuess.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E3FD1461AE4BA63004941C5"
+            BuildableName = "ZLGuess WatchKit App.app"
+            BlueprintName = "ZLGuess WatchKit App"
+            ReferencedContainer = "container:ZLGuess.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

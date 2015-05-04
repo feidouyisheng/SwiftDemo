@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3FD11A1AE4BA44004941C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FD1191AE4BA44004941C5 /* AppDelegate.swift */; };
+		7E3FD11C1AE4BA44004941C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FD11B1AE4BA44004941C5 /* ViewController.swift */; };
+		7E3FD11F1AE4BA45004941C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD11D1AE4BA45004941C5 /* Main.storyboard */; };
+		7E3FD1211AE4BA46004941C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD1201AE4BA46004941C5 /* Images.xcassets */; };
+		7E3FD1241AE4BA47004941C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD1221AE4BA47004941C5 /* LaunchScreen.xib */; };
+		7E3FD1301AE4BA47004941C5 /* ZLGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FD12F1AE4BA47004941C5 /* ZLGuessTests.swift */; };
+		7E3FD1421AE4BA63004941C5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3FD1411AE4BA63004941C5 /* InterfaceController.swift */; };
+		7E3FD1441AE4BA63004941C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD1431AE4BA63004941C5 /* Images.xcassets */; };
+		7E3FD1481AE4BA63004941C5 /* ZLGuess WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD1471AE4BA63004941C5 /* ZLGuess WatchKit App.app */; };
+		7E3FD1501AE4BA64004941C5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD14E1AE4BA64004941C5 /* Interface.storyboard */; };
+		7E3FD1521AE4BA64004941C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3FD1511AE4BA64004941C5 /* Images.xcassets */; };
+		7E3FD1551AE4BA64004941C5 /* ZLGuess WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E3FD13D1AE4BA63004941C5 /* ZLGuess WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E3FD12A1AE4BA47004941C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3FD10C1AE4BA44004941C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3FD1131AE4BA44004941C5;
+			remoteInfo = ZLGuess;
+		};
+		7E3FD1491AE4BA63004941C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3FD10C1AE4BA44004941C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3FD1461AE4BA63004941C5;
+			remoteInfo = "ZLGuess WatchKit App";
+		};
+		7E3FD1531AE4BA64004941C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3FD10C1AE4BA44004941C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3FD13C1AE4BA63004941C5;
+			remoteInfo = "ZLGuess WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E3FD15C1AE4BA64004941C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E3FD1551AE4BA64004941C5 /* ZLGuess WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E3FD1141AE4BA44004941C5 /* ZLGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3FD1181AE4BA44004941C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3FD1191AE4BA44004941C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E3FD11B1AE4BA44004941C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E3FD11E1AE4BA45004941C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E3FD1201AE4BA46004941C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E3FD1231AE4BA47004941C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7E3FD1291AE4BA47004941C5 /* ZLGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3FD12E1AE4BA47004941C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3FD12F1AE4BA47004941C5 /* ZLGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLGuessTests.swift; sourceTree = "<group>"; };
+		7E3FD13D1AE4BA63004941C5 /* ZLGuess WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZLGuess WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3FD1401AE4BA63004941C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3FD1411AE4BA63004941C5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7E3FD1431AE4BA63004941C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E3FD1471AE4BA63004941C5 /* ZLGuess WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZLGuess WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3FD14D1AE4BA63004941C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3FD14F1AE4BA64004941C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7E3FD1511AE4BA64004941C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3FD1111AE4BA44004941C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD1261AE4BA47004941C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD13A1AE4BA63004941C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3FD10B1AE4BA43004941C5 = {
+			isa = PBXGroup;
+			children = (
+				7E3FD1161AE4BA44004941C5 /* ZLGuess */,
+				7E3FD12C1AE4BA47004941C5 /* ZLGuessTests */,
+				7E3FD13E1AE4BA63004941C5 /* ZLGuess WatchKit Extension */,
+				7E3FD14B1AE4BA63004941C5 /* ZLGuess WatchKit App */,
+				7E3FD1151AE4BA44004941C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3FD1151AE4BA44004941C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD1141AE4BA44004941C5 /* ZLGuess.app */,
+				7E3FD1291AE4BA47004941C5 /* ZLGuessTests.xctest */,
+				7E3FD13D1AE4BA63004941C5 /* ZLGuess WatchKit Extension.appex */,
+				7E3FD1471AE4BA63004941C5 /* ZLGuess WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3FD1161AE4BA44004941C5 /* ZLGuess */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD1191AE4BA44004941C5 /* AppDelegate.swift */,
+				7E3FD11B1AE4BA44004941C5 /* ViewController.swift */,
+				7E3FD11D1AE4BA45004941C5 /* Main.storyboard */,
+				7E3FD1201AE4BA46004941C5 /* Images.xcassets */,
+				7E3FD1221AE4BA47004941C5 /* LaunchScreen.xib */,
+				7E3FD1171AE4BA44004941C5 /* Supporting Files */,
+			);
+			path = ZLGuess;
+			sourceTree = "<group>";
+		};
+		7E3FD1171AE4BA44004941C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD1181AE4BA44004941C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E3FD12C1AE4BA47004941C5 /* ZLGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD12F1AE4BA47004941C5 /* ZLGuessTests.swift */,
+				7E3FD12D1AE4BA47004941C5 /* Supporting Files */,
+			);
+			path = ZLGuessTests;
+			sourceTree = "<group>";
+		};
+		7E3FD12D1AE4BA47004941C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD12E1AE4BA47004941C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E3FD13E1AE4BA63004941C5 /* ZLGuess WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD1411AE4BA63004941C5 /* InterfaceController.swift */,
+				7E3FD1431AE4BA63004941C5 /* Images.xcassets */,
+				7E3FD13F1AE4BA63004941C5 /* Supporting Files */,
+			);
+			path = "ZLGuess WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7E3FD13F1AE4BA63004941C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD1401AE4BA63004941C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E3FD14B1AE4BA63004941C5 /* ZLGuess WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD14E1AE4BA64004941C5 /* Interface.storyboard */,
+				7E3FD1511AE4BA64004941C5 /* Images.xcassets */,
+				7E3FD14C1AE4BA63004941C5 /* Supporting Files */,
+			);
+			path = "ZLGuess WatchKit App";
+			sourceTree = "<group>";
+		};
+		7E3FD14C1AE4BA63004941C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3FD14D1AE4BA63004941C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3FD1131AE4BA44004941C5 /* ZLGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3FD1331AE4BA47004941C5 /* Build configuration list for PBXNativeTarget "ZLGuess" */;
+			buildPhases = (
+				7E3FD1101AE4BA44004941C5 /* Sources */,
+				7E3FD1111AE4BA44004941C5 /* Frameworks */,
+				7E3FD1121AE4BA44004941C5 /* Resources */,
+				7E3FD15C1AE4BA64004941C5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3FD1541AE4BA64004941C5 /* PBXTargetDependency */,
+			);
+			name = ZLGuess;
+			productName = ZLGuess;
+			productReference = 7E3FD1141AE4BA44004941C5 /* ZLGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E3FD1281AE4BA47004941C5 /* ZLGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3FD1361AE4BA47004941C5 /* Build configuration list for PBXNativeTarget "ZLGuessTests" */;
+			buildPhases = (
+				7E3FD1251AE4BA47004941C5 /* Sources */,
+				7E3FD1261AE4BA47004941C5 /* Frameworks */,
+				7E3FD1271AE4BA47004941C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3FD12B1AE4BA47004941C5 /* PBXTargetDependency */,
+			);
+			name = ZLGuessTests;
+			productName = ZLGuessTests;
+			productReference = 7E3FD1291AE4BA47004941C5 /* ZLGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E3FD13C1AE4BA63004941C5 /* ZLGuess WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3FD1591AE4BA64004941C5 /* Build configuration list for PBXNativeTarget "ZLGuess WatchKit Extension" */;
+			buildPhases = (
+				7E3FD1391AE4BA63004941C5 /* Sources */,
+				7E3FD13A1AE4BA63004941C5 /* Frameworks */,
+				7E3FD13B1AE4BA63004941C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3FD14A1AE4BA63004941C5 /* PBXTargetDependency */,
+			);
+			name = "ZLGuess WatchKit Extension";
+			productName = "ZLGuess WatchKit Extension";
+			productReference = 7E3FD13D1AE4BA63004941C5 /* ZLGuess WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7E3FD1461AE4BA63004941C5 /* ZLGuess WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3FD1561AE4BA64004941C5 /* Build configuration list for PBXNativeTarget "ZLGuess WatchKit App" */;
+			buildPhases = (
+				7E3FD1451AE4BA63004941C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZLGuess WatchKit App";
+			productName = "ZLGuess WatchKit App";
+			productReference = 7E3FD1471AE4BA63004941C5 /* ZLGuess WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3FD10C1AE4BA44004941C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = lgwh;
+				TargetAttributes = {
+					7E3FD1131AE4BA44004941C5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7E3FD1281AE4BA47004941C5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7E3FD1131AE4BA44004941C5;
+					};
+					7E3FD13C1AE4BA63004941C5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7E3FD1461AE4BA63004941C5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 7E3FD10F1AE4BA44004941C5 /* Build configuration list for PBXProject "ZLGuess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3FD10B1AE4BA43004941C5;
+			productRefGroup = 7E3FD1151AE4BA44004941C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3FD1131AE4BA44004941C5 /* ZLGuess */,
+				7E3FD1281AE4BA47004941C5 /* ZLGuessTests */,
+				7E3FD13C1AE4BA63004941C5 /* ZLGuess WatchKit Extension */,
+				7E3FD1461AE4BA63004941C5 /* ZLGuess WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3FD1121AE4BA44004941C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3FD11F1AE4BA45004941C5 /* Main.storyboard in Resources */,
+				7E3FD1241AE4BA47004941C5 /* LaunchScreen.xib in Resources */,
+				7E3FD1211AE4BA46004941C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD1271AE4BA47004941C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD13B1AE4BA63004941C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3FD1481AE4BA63004941C5 /* ZLGuess WatchKit App.app in Resources */,
+				7E3FD1441AE4BA63004941C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD1451AE4BA63004941C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3FD1501AE4BA64004941C5 /* Interface.storyboard in Resources */,
+				7E3FD1521AE4BA64004941C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3FD1101AE4BA44004941C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3FD11C1AE4BA44004941C5 /* ViewController.swift in Sources */,
+				7E3FD11A1AE4BA44004941C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD1251AE4BA47004941C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3FD1301AE4BA47004941C5 /* ZLGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3FD1391AE4BA63004941C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3FD1421AE4BA63004941C5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E3FD12B1AE4BA47004941C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3FD1131AE4BA44004941C5 /* ZLGuess */;
+			targetProxy = 7E3FD12A1AE4BA47004941C5 /* PBXContainerItemProxy */;
+		};
+		7E3FD14A1AE4BA63004941C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3FD1461AE4BA63004941C5 /* ZLGuess WatchKit App */;
+			targetProxy = 7E3FD1491AE4BA63004941C5 /* PBXContainerItemProxy */;
+		};
+		7E3FD1541AE4BA64004941C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3FD13C1AE4BA63004941C5 /* ZLGuess WatchKit Extension */;
+			targetProxy = 7E3FD1531AE4BA64004941C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E3FD11D1AE4BA45004941C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3FD11E1AE4BA45004941C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3FD1221AE4BA47004941C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3FD1231AE4BA47004941C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7E3FD14E1AE4BA64004941C5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3FD14F1AE4BA64004941C5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3FD1311AE4BA47004941C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3FD1321AE4BA47004941C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3FD1341AE4BA47004941C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ZLGuess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E3FD1351AE4BA47004941C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ZLGuess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E3FD1371AE4BA47004941C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZLGuessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLGuess.app/ZLGuess";
+			};
+			name = Debug;
+		};
+		7E3FD1381AE4BA47004941C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZLGuessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLGuess.app/ZLGuess";
+			};
+			name = Release;
+		};
+		7E3FD1571AE4BA64004941C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ZLGuess_WatchKit_Extension;
+				INFOPLIST_FILE = "ZLGuess WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7E3FD1581AE4BA64004941C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ZLGuess_WatchKit_Extension;
+				INFOPLIST_FILE = "ZLGuess WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		7E3FD15A1AE4BA64004941C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZLGuess WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E3FD15B1AE4BA64004941C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZLGuess WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3FD10F1AE4BA44004941C5 /* Build configuration list for PBXProject "ZLGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3FD1311AE4BA47004941C5 /* Debug */,
+				7E3FD1321AE4BA47004941C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3FD1331AE4BA47004941C5 /* Build configuration list for PBXNativeTarget "ZLGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3FD1341AE4BA47004941C5 /* Debug */,
+				7E3FD1351AE4BA47004941C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E3FD1361AE4BA47004941C5 /* Build configuration list for PBXNativeTarget "ZLGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3FD1371AE4BA47004941C5 /* Debug */,
+				7E3FD1381AE4BA47004941C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E3FD1561AE4BA64004941C5 /* Build configuration list for PBXNativeTarget "ZLGuess WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3FD1571AE4BA64004941C5 /* Debug */,
+				7E3FD1581AE4BA64004941C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E3FD1591AE4BA64004941C5 /* Build configuration list for PBXNativeTarget "ZLGuess WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3FD15A1AE4BA64004941C5 /* Debug */,
+				7E3FD15B1AE4BA64004941C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3FD10C1AE4BA44004941C5 /* Project object */;
+}

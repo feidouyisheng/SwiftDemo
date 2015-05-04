@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EBF731E1ADE567E00E65949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF731D1ADE567E00E65949 /* AppDelegate.swift */; };
+		7EBF73201ADE567E00E65949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF731F1ADE567E00E65949 /* ViewController.swift */; };
+		7EBF73231ADE567E00E65949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF73211ADE567E00E65949 /* Main.storyboard */; };
+		7EBF73251ADE567E00E65949 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF73241ADE567E00E65949 /* Images.xcassets */; };
+		7EBF73281ADE567E00E65949 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF73261ADE567E00E65949 /* LaunchScreen.xib */; };
+		7EBF73341ADE567E00E65949 /* CardScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF73331ADE567E00E65949 /* CardScannerTests.swift */; };
+		7EBF73471ADE56E800E65949 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBF73461ADE56E800E65949 /* libCardIO.a */; };
+		7EBF73491ADE576700E65949 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBF73481ADE576700E65949 /* AVFoundation.framework */; };
+		7EBF734B1ADE577800E65949 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBF734A1ADE577800E65949 /* AudioToolbox.framework */; };
+		7EBF734D1ADE57A300E65949 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBF734C1ADE57A300E65949 /* CoreMedia.framework */; };
+		7EBF734F1ADE57B100E65949 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBF734E1ADE57B100E65949 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EBF732E1ADE567E00E65949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EBF73101ADE567E00E65949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EBF73171ADE567E00E65949;
+			remoteInfo = CardScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EBF73181ADE567E00E65949 /* CardScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBF731C1ADE567E00E65949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBF731D1ADE567E00E65949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EBF731F1ADE567E00E65949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EBF73221ADE567E00E65949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EBF73241ADE567E00E65949 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EBF73271ADE567E00E65949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7EBF732D1ADE567E00E65949 /* CardScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBF73321ADE567E00E65949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBF73331ADE567E00E65949 /* CardScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerTests.swift; sourceTree = "<group>"; };
+		7EBF733E1ADE56E800E65949 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		7EBF733F1ADE56E800E65949 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		7EBF73401ADE56E800E65949 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		7EBF73411ADE56E800E65949 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		7EBF73421ADE56E800E65949 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		7EBF73431ADE56E800E65949 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		7EBF73441ADE56E800E65949 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		7EBF73451ADE56E800E65949 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		7EBF73461ADE56E800E65949 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		7EBF73481ADE576700E65949 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7EBF734A1ADE577800E65949 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7EBF734C1ADE57A300E65949 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7EBF734E1ADE57B100E65949 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7EBF73501ADE587A00E65949 /* CardScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EBF73151ADE567E00E65949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBF734F1ADE57B100E65949 /* MobileCoreServices.framework in Frameworks */,
+				7EBF734D1ADE57A300E65949 /* CoreMedia.framework in Frameworks */,
+				7EBF734B1ADE577800E65949 /* AudioToolbox.framework in Frameworks */,
+				7EBF73491ADE576700E65949 /* AVFoundation.framework in Frameworks */,
+				7EBF73471ADE56E800E65949 /* libCardIO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBF732A1ADE567E00E65949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EBF730F1ADE567E00E65949 = {
+			isa = PBXGroup;
+			children = (
+				7EBF734E1ADE57B100E65949 /* MobileCoreServices.framework */,
+				7EBF734C1ADE57A300E65949 /* CoreMedia.framework */,
+				7EBF734A1ADE577800E65949 /* AudioToolbox.framework */,
+				7EBF73481ADE576700E65949 /* AVFoundation.framework */,
+				7EBF733D1ADE56E800E65949 /* CardIO */,
+				7EBF731A1ADE567E00E65949 /* CardScanner */,
+				7EBF73301ADE567E00E65949 /* CardScannerTests */,
+				7EBF73191ADE567E00E65949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBF73191ADE567E00E65949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF73181ADE567E00E65949 /* CardScanner.app */,
+				7EBF732D1ADE567E00E65949 /* CardScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EBF731A1ADE567E00E65949 /* CardScanner */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF731D1ADE567E00E65949 /* AppDelegate.swift */,
+				7EBF731F1ADE567E00E65949 /* ViewController.swift */,
+				7EBF73211ADE567E00E65949 /* Main.storyboard */,
+				7EBF73241ADE567E00E65949 /* Images.xcassets */,
+				7EBF73261ADE567E00E65949 /* LaunchScreen.xib */,
+				7EBF731B1ADE567E00E65949 /* Supporting Files */,
+				7EBF73501ADE587A00E65949 /* CardScanner-Bridging-Header.h */,
+			);
+			path = CardScanner;
+			sourceTree = "<group>";
+		};
+		7EBF731B1ADE567E00E65949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF731C1ADE567E00E65949 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EBF73301ADE567E00E65949 /* CardScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF73331ADE567E00E65949 /* CardScannerTests.swift */,
+				7EBF73311ADE567E00E65949 /* Supporting Files */,
+			);
+			path = CardScannerTests;
+			sourceTree = "<group>";
+		};
+		7EBF73311ADE567E00E65949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF73321ADE567E00E65949 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EBF733D1ADE56E800E65949 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				7EBF733E1ADE56E800E65949 /* CardIO.h */,
+				7EBF733F1ADE56E800E65949 /* CardIOCreditCardInfo.h */,
+				7EBF73401ADE56E800E65949 /* CardIODetectionMode.h */,
+				7EBF73411ADE56E800E65949 /* CardIOPaymentViewController.h */,
+				7EBF73421ADE56E800E65949 /* CardIOPaymentViewControllerDelegate.h */,
+				7EBF73431ADE56E800E65949 /* CardIOUtilities.h */,
+				7EBF73441ADE56E800E65949 /* CardIOView.h */,
+				7EBF73451ADE56E800E65949 /* CardIOViewDelegate.h */,
+				7EBF73461ADE56E800E65949 /* libCardIO.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EBF73171ADE567E00E65949 /* CardScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBF73371ADE567E00E65949 /* Build configuration list for PBXNativeTarget "CardScanner" */;
+			buildPhases = (
+				7EBF73141ADE567E00E65949 /* Sources */,
+				7EBF73151ADE567E00E65949 /* Frameworks */,
+				7EBF73161ADE567E00E65949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardScanner;
+			productName = CardScanner;
+			productReference = 7EBF73181ADE567E00E65949 /* CardScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EBF732C1ADE567E00E65949 /* CardScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBF733A1ADE567E00E65949 /* Build configuration list for PBXNativeTarget "CardScannerTests" */;
+			buildPhases = (
+				7EBF73291ADE567E00E65949 /* Sources */,
+				7EBF732A1ADE567E00E65949 /* Frameworks */,
+				7EBF732B1ADE567E00E65949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EBF732F1ADE567E00E65949 /* PBXTargetDependency */,
+			);
+			name = CardScannerTests;
+			productName = CardScannerTests;
+			productReference = 7EBF732D1ADE567E00E65949 /* CardScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EBF73101ADE567E00E65949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = lgwh;
+				TargetAttributes = {
+					7EBF73171ADE567E00E65949 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7EBF732C1ADE567E00E65949 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = NNRMLU6GWV;
+						TestTargetID = 7EBF73171ADE567E00E65949;
+					};
+				};
+			};
+			buildConfigurationList = 7EBF73131ADE567E00E65949 /* Build configuration list for PBXProject "CardScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EBF730F1ADE567E00E65949;
+			productRefGroup = 7EBF73191ADE567E00E65949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EBF73171ADE567E00E65949 /* CardScanner */,
+				7EBF732C1ADE567E00E65949 /* CardScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EBF73161ADE567E00E65949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBF73231ADE567E00E65949 /* Main.storyboard in Resources */,
+				7EBF73281ADE567E00E65949 /* LaunchScreen.xib in Resources */,
+				7EBF73251ADE567E00E65949 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBF732B1ADE567E00E65949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EBF73141ADE567E00E65949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBF73201ADE567E00E65949 /* ViewController.swift in Sources */,
+				7EBF731E1ADE567E00E65949 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBF73291ADE567E00E65949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBF73341ADE567E00E65949 /* CardScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EBF732F1ADE567E00E65949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EBF73171ADE567E00E65949 /* CardScanner */;
+			targetProxy = 7EBF732E1ADE567E00E65949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EBF73211ADE567E00E65949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBF73221ADE567E00E65949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EBF73261ADE567E00E65949 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBF73271ADE567E00E65949 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EBF73351ADE567E00E65949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: YANG BING (5NWLGW68Z6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: YANG BING (5NWLGW68Z6)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EBF73361ADE567E00E65949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: YANG BING (5NWLGW68Z6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: YANG BING (5NWLGW68Z6)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EBF73381ADE567E00E65949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CardScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85264c71-0bdc-4833-bf37-4469bfa9828d";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardScanner/CardScanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EBF73391ADE567E00E65949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = CardScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "85264c71-0bdc-4833-bf37-4469bfa9828d";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardScanner/CardScanner-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7EBF733B1ADE567E00E65949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardScanner.app/CardScanner";
+			};
+			name = Debug;
+		};
+		7EBF733C1ADE567E00E65949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardScanner.app/CardScanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EBF73131ADE567E00E65949 /* Build configuration list for PBXProject "CardScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBF73351ADE567E00E65949 /* Debug */,
+				7EBF73361ADE567E00E65949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBF73371ADE567E00E65949 /* Build configuration list for PBXNativeTarget "CardScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBF73381ADE567E00E65949 /* Debug */,
+				7EBF73391ADE567E00E65949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBF733A1ADE567E00E65949 /* Build configuration list for PBXNativeTarget "CardScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBF733B1ADE567E00E65949 /* Debug */,
+				7EBF733C1ADE567E00E65949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EBF73101ADE567E00E65949 /* Project object */;
+}

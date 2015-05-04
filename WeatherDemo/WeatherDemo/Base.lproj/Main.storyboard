@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="WeatherDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMH-Cn-HaB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天气" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-el-cbV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温度" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFi-xF-iZu">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="917" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ciJ-lB-ba5">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="武汉-黄陂">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getOtherCityWeather:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nEf-bl-2Un"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1255" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlH-Fu-c5F">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="长沙-浏阳">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getOtherCityWeather:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OYD-N8-lED"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="169" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1v-kK-FeJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UYQ-j7-SEe"/>
+                                    <constraint firstAttribute="width" constant="60" id="nJW-sY-P6J"/>
+                                </constraints>
+                                <state key="normal" title="深圳">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="UYQ-j7-SEe"/>
+                                        <exclude reference="nJW-sY-P6J"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="UYQ-j7-SEe"/>
+                                        <include reference="nJW-sY-P6J"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="getOtherCityWeather:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uI5-Sq-dpn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="bMH-Cn-HaB" secondAttribute="centerX" id="A8e-rB-Uqh"/>
+                            <constraint firstItem="ciJ-lB-ba5" firstAttribute="top" secondItem="RFi-xF-iZu" secondAttribute="bottom" constant="60" id="CSV-UM-eEk"/>
+                            <constraint firstAttribute="centerX" secondItem="f1v-kK-FeJ" secondAttribute="centerX" id="GE7-yx-Vzg"/>
+                            <constraint firstAttribute="trailing" secondItem="BlH-Fu-c5F" secondAttribute="trailing" constant="63" id="XRk-ya-QYl"/>
+                            <constraint firstItem="f1v-kK-FeJ" firstAttribute="top" secondItem="RFi-xF-iZu" secondAttribute="bottom" constant="134" id="Xpl-xP-88p"/>
+                            <constraint firstAttribute="centerX" secondItem="aTq-el-cbV" secondAttribute="centerX" id="YCf-hV-bXg"/>
+                            <constraint firstItem="ciJ-lB-ba5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="fZp-4n-3Wp"/>
+                            <constraint firstItem="BlH-Fu-c5F" firstAttribute="top" secondItem="RFi-xF-iZu" secondAttribute="bottom" constant="60" id="fvn-Ba-8I1"/>
+                            <constraint firstItem="bMH-Cn-HaB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="hpF-yd-R7Y"/>
+                            <constraint firstItem="RFi-xF-iZu" firstAttribute="top" secondItem="aTq-el-cbV" secondAttribute="bottom" constant="19" id="i4s-sT-SVz">
+                                <variation key="widthClass=compact" constant="80"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="RFi-xF-iZu" secondAttribute="centerX" id="m02-XJ-skt"/>
+                            <constraint firstItem="aTq-el-cbV" firstAttribute="top" secondItem="bMH-Cn-HaB" secondAttribute="bottom" constant="43" id="tjw-Y9-wfV">
+                                <variation key="widthClass=compact" constant="80"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="bMH-Cn-HaB"/>
+                                <exclude reference="aTq-el-cbV"/>
+                                <exclude reference="RFi-xF-iZu"/>
+                                <exclude reference="ciJ-lB-ba5"/>
+                                <exclude reference="BlH-Fu-c5F"/>
+                                <exclude reference="f1v-kK-FeJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="A8e-rB-Uqh"/>
+                                <exclude reference="hpF-yd-R7Y"/>
+                                <exclude reference="YCf-hV-bXg"/>
+                                <exclude reference="tjw-Y9-wfV"/>
+                                <exclude reference="i4s-sT-SVz"/>
+                                <exclude reference="m02-XJ-skt"/>
+                                <exclude reference="CSV-UM-eEk"/>
+                                <exclude reference="fZp-4n-3Wp"/>
+                                <exclude reference="XRk-ya-QYl"/>
+                                <exclude reference="fvn-Ba-8I1"/>
+                                <exclude reference="GE7-yx-Vzg"/>
+                                <exclude reference="Xpl-xP-88p"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="bMH-Cn-HaB"/>
+                                <include reference="aTq-el-cbV"/>
+                                <include reference="RFi-xF-iZu"/>
+                                <include reference="ciJ-lB-ba5"/>
+                                <include reference="BlH-Fu-c5F"/>
+                                <include reference="f1v-kK-FeJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="A8e-rB-Uqh"/>
+                                <include reference="hpF-yd-R7Y"/>
+                                <include reference="YCf-hV-bXg"/>
+                                <include reference="tjw-Y9-wfV"/>
+                                <include reference="i4s-sT-SVz"/>
+                                <include reference="m02-XJ-skt"/>
+                                <include reference="CSV-UM-eEk"/>
+                                <include reference="fZp-4n-3Wp"/>
+                                <include reference="XRk-ya-QYl"/>
+                                <include reference="fvn-Ba-8I1"/>
+                                <include reference="GE7-yx-Vzg"/>
+                                <include reference="Xpl-xP-88p"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="labelTemp" destination="RFi-xF-iZu" id="2bl-t4-kcJ"/>
+                        <outlet property="labelWeather" destination="aTq-el-cbV" id="Dfs-lq-7Ft"/>
+                        <outlet property="lableCity" destination="bMH-Cn-HaB" id="RQA-ti-okf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="384" y="400"/>
+        </scene>
+    </scenes>
+</document>
